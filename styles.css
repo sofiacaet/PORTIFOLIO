@@ -277,9 +277,9 @@ body {
     list-style: none;
     padding: 20px;
     margin-top: 20px;
-    background: linear-gradient(135deg, var(--escuro), var(--primaria)); /* Gradiente futurista */
-    border-radius: 12px; /* Bordas arredondadas */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+    background: linear-gradient(135deg, var(--escuro), var(--primaria)); 
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); 
     width: 100%;
     max-width: 350px;
     margin: 20px auto;
@@ -288,7 +288,7 @@ body {
 }
 
 .submenu-projetos:hover {
-    transform: scale(1); /* Expande ao passar o mouse */
+    transform: scale(1); 
 }
 
 .submenu-projetos li {
@@ -300,7 +300,7 @@ body {
 .submenu-projetos a {
     display: block;
     text-decoration: none;
-    color: var(--claro); /* Cor clara para o texto */
+    color: var(--claro); 
     font-size: 1.2rem;
     font-weight: 600;
     padding: 10px 20px;
@@ -308,14 +308,14 @@ body {
     border-radius: 6px;
 }
 
-/* Efeito de hover para os links */
+
 .submenu-projetos a:hover {
-    background-color: var(--primaria); /* Fica com a cor de destaque */
-    color: var(--escuro); /* Muda a cor do texto */
-    transform: translateY(-4px); /* Efeito de elevação */
+    background-color: var(--primaria); 
+    color: var(--escuro); 
+    transform: translateY(-4px); 
 }
 
-/* Ajuste da animação */
+
 @keyframes flutuar {
     0%, 100% {
         transform: translateY(0);
@@ -325,7 +325,7 @@ body {
     }
 }
 
-/* Estilos adicionais para o corpo da página */
+
 .cabecalho {
     min-width: 100vh;
     display: flex;
